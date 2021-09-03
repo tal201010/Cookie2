@@ -1,0 +1,24 @@
+.square {
+    width: 275px;
+    height: 275px;
+    background-color: lightblue;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.square:hover {
+    transform: translate(50px, 200px);
+}
+
+.absalute {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.absalute a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 20px;
+    border: solid 5px white;
+} 
